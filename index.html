@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Commit4Fun</title>
+</head>
+<body>
+    <div class="container">
+    <header class="top-bar">
+       <div class="company-name">C4F INDUSTRIES</div>
+  <div class="date-time" id="datetime"></div>
+    </header>
+    <main class="terminal-box">
+        <h1>Welcome to the C4F Terminal System</h1>
+        <p>Commit4Fun is a fun way to get the dopamine of making a commit 
+without the need to write code.
+Just click the button below to make a commit and enjoy the satisfaction!</p>
+         <div class="input-area">
+      <label for="commitInput">&gt; Enter Commit Message:</label>
+      <input type="text" id="commitInput" placeholder="e.g. fix: aligned user ego" />
+      <button onclick="generateCommit()">COMMIT</button>
+      <div class="terminal-log" id="log">
+    </div>
+    </div>
+        </main>
+    </div>
+         <script src="script.js"></script>
+</body>
+</html>
